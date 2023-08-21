@@ -1,0 +1,20 @@
+{
+  "name": "nodem-clean",
+  "version": "1.0.1",
+  "description": "删除指定目录下的所有 node_modules 文件夹",
+  "main": "index.js",
+  "bin": {
+    "nodem-clean": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruanbw",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
