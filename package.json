@@ -1,7 +1,13 @@
 {
   "name": "nodem-clean",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "删除指定目录下的所有 node_modules 文件夹",
+  "keywords": [
+    "node_modules",
+    "clean",
+    "nodem-clean",
+    "clear"
+  ],
   "main": "index.js",
   "bin": {
     "nodem-clean": "bin/index.js"
@@ -9,12 +15,11 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "ruanbw",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "commander": "^11.0.0"
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "ora": "^5.4.1"
   }
 }
